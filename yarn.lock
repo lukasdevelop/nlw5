@@ -22,6 +22,13 @@
   dependencies:
     "@types/node" "*"
 
+"@types/engine.io@*":
+  "integrity" "sha512-DLVpLEGTEZGBXOYoYoagHSxXkDHONc0fZouF2ayw7Q18aRu1Afwci+1CFKvPpouCUOVWP+dmCaAWpQjswe7kpg=="
+  "resolved" "https://registry.npmjs.org/@types/engine.io/-/engine.io-3.1.5.tgz"
+  "version" "3.1.5"
+  dependencies:
+    "@types/node" "*"
+
 "@types/express-serve-static-core@^4.17.18":
   "integrity" "sha512-DJOSHzX7pCiSElWaGR8kCprwibCB/3yW6vcT8VG3P0SJjnv19gnWG/AZMfM60Xj/YJIp/YCaDHyvzsFVeniARA=="
   "resolved" "https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-4.17.19.tgz"
@@ -68,6 +75,22 @@
   dependencies:
     "@types/mime" "^1"
     "@types/node" "*"
+
+"@types/socket.io-parser@*":
+  "integrity" "sha512-+JNb+7N7tSINyXPxAJb62+NcpC1x/fPn7z818W4xeNCdPTp6VsO/X8fCsg6+ug4a56m1v9sEiTIIUKVupcHOFQ=="
+  "resolved" "https://registry.npmjs.org/@types/socket.io-parser/-/socket.io-parser-2.2.1.tgz"
+  "version" "2.2.1"
+  dependencies:
+    "@types/node" "*"
+
+"@types/socket.io@^2.1.13":
+  "integrity" "sha512-JRgH3nCgsWel4OPANkhH8TelpXvacAJ9VeryjuqCDiaVDMpLysd6sbt0dr6Z15pqH3p2YpOT3T1C5vQ+O/7uyg=="
+  "resolved" "https://registry.npmjs.org/@types/socket.io/-/socket.io-2.1.13.tgz"
+  "version" "2.1.13"
+  dependencies:
+    "@types/engine.io" "*"
+    "@types/node" "*"
+    "@types/socket.io-parser" "*"
 
 "@types/strip-bom@^3.0.0":
   "integrity" "sha1-FKjsOVbC6B7bdSB5CuzyHCkK69I="
