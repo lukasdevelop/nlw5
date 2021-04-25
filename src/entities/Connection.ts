@@ -2,7 +2,7 @@ import { v4 as uuid } from 'uuid'
 import { Entity, Column, PrimaryColumn, CreateDateColumn, JoinColumn, ManyToOne, UpdateDateColumn } from 'typeorm'
 import { User } from './User'
 
-@Entity('messages')
+@Entity('connections')
 class Connection {
 
     @PrimaryColumn()
@@ -13,9 +13,6 @@ class Connection {
 
     @Column()
     admin_id: string;
-
-    @Column()
-    text: string;
 
     @JoinColumn({ name: "user_id"})
     @ManyToOne(() => User)

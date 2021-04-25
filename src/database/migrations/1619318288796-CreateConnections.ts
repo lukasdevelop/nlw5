@@ -1,4 +1,3 @@
-import { query } from "express";
 import { MigrationInterface, QueryRunner, Table, TableForeignKey } from "typeorm";
 
 export class CreateConnections1619318288796 implements MigrationInterface {
@@ -23,16 +22,17 @@ export class CreateConnections1619318288796 implements MigrationInterface {
                         type: "uuid",
                     },
                     {
-                        name: "socket_id",
-                        type: 'varchar'
+                        name: 'socket_id',
+                        type: 'varchar',
                     },
+                  
                     {
                         name: 'created_at',
                         type: 'timestamp',
                         default: 'now()'
                     },
                     {
-                        name: 'update_at',
+                        name: 'updated_at',
                         type: 'timestamp',
                         default: 'now()'
                     }
