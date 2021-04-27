@@ -247,3 +247,23 @@ input[type="text"]:focus {
   text-align: right;
   font-size: 1px;
 }
+
+.admin_date {
+  font-size: 10px;
+}
+
+.in_support {
+  background: #8d7aef;
+  color:#fff;
+  font-size: 17px;
+}
+
+.btn_send {
+  background: #1eb363;
+  color: #eee;
+  border: none;
+}
+
+.btn_send:hover{
+  opacity: 0.8;
+}
